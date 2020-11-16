@@ -14,4 +14,6 @@
 6 python manage.py makemigrations
   python manage.py migrate
 7 python manage.py createsuperuser
-8 访问 http://127.0.0.1:8000/
+8 访问 http://127.0.0.1:8000/admin 管理数据
+9 新建news/url.py文件编辑url路径，在views中添加函数，在templates中加入模板
+10 访问http://127.0.0.1:8000/news/articles/2020 查询2020年的新闻
