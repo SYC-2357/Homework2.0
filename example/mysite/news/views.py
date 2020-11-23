@@ -6,4 +6,5 @@ from django.views.generic.edit import CreateView
 class HomeworkCreate(CreateView):
     model = Homework
     template_name = 'homework_form.html'
+    #success_url = 'thanks.html'
     fields = ['headline','attach','remark','student']
