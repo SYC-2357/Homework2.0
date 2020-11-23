@@ -19,4 +19,8 @@
 10 访问http://127.0.0.1:8000/news/articles/2020 查询2020年的新闻
 
 ## 更改案例news为作业上交平台
-在models中更改class
+在models中更改class，创建数据库Student Homework，设置数据格式
+在admin中加入数据库
+在templates目录下创建HTML文件，内容为提交作业的界面格式
+在views中创建class，将数据库models和HTML文件以及在页面中出现的选项关联起来
+在url中添加path
