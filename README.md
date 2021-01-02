@@ -25,8 +25,10 @@
 1 在阿里云的控制台中创建实例，创建成功后就拥有了按照创建要求分配的云服务器，打开实例的交互命令台。
 2 使用ifconfig可以查询云服务器的地址，但根据阿里云在服务器详情界面展示的外部IP地址为8.130.28.5。
 ![8](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/8_.png)
+
 3 使用ipconfig查询本机的IP地址，云服务器与本机相互使用ping命令确认连接。
 ![9](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/9_.png)
+
 4 使用命令
 >python3 -m http.server 3389 
 
@@ -35,17 +37,17 @@
 ![11](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/11_.png)
 ![10](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/10_.png)
 
-5 注册个人域名 syc2357.xyz 
-6 创建实例 IP地址为？？？？？？（使用了一个新实例）
-5 在阿里云的域名管理器中使用域名解析将域名与实例的IP地址进行关联。
-![13]()
-6 使用命令
+6 注册个人域名 syc2357.xyz 
+7 创建实例 IP地址为？？？？？？（使用了一个新实例）
+8 在阿里云的域名管理器中使用域名解析将域名与实例的IP地址进行关联。
+![13](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/13.png)
+9 使用命令
 >python3 -m http.server 3389 
 
 使服务器开始运行,端口号为3389
-7 在本机电脑的浏览器上输入syc2357.xyz访问，出现页面，服务器被正常访问，并显示访问记录
-![12]()
-![1305]()
+10 在本机电脑的浏览器上输入syc2357.xyz访问，出现页面，服务器被正常访问，并显示访问记录
+![12](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/12.png)
+![1305](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/1305.png)
 
 **遇到的问题和解决办法**
 1 本机无法ping通云服务器
