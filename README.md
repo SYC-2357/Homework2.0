@@ -105,4 +105,4 @@
 >path('hw/create/', views.HomeworkCreate.as_view())
 
 7 可以通过 http://127.0.0.1:8000/news/hw/create/ 链接访问用户页面
-
+![14](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/14.png)
