@@ -4,13 +4,13 @@
 ### 一 本地虚拟机
 0 配置虚拟机
 1 设置虚拟机网络链接方式为桥接网卡后，开机运行。在命令行输入ifconfig命令后，得知虚拟机的IP地址为10.196.11.243。
-![a](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/a.png)
+![a](picture/a.png)
 
 2 在本机的命令行中使用ipconfig命令查询IP地址为：10.196.8.203
-![2](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/2.png) 
+![2](picture/2.png) 
 
 3 在本机中使用ping连通虚拟机。
-![4](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/4.png)
+![4](picture/4.png)
 
 4 将示例的HTML文件通过clone导入虚拟机
 >git clone https://github.com/zxuqian/html-css-examples.git
@@ -19,40 +19,40 @@
 >python3 -m http.server
 
 虚拟机开始作为服务器运行。
-![5](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/5.png)
+![5](picture/5.png)
 
 5 在本机电脑的浏览器上输入虚拟机的IP地址访问，出现示例的页面，虚拟机服务器被正常访问，服务器显示访问记录。
-![6](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/6.png)
-![7](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/7.png)
+![6](picture/6.png)
+![7](picture/7.png)
 
 ### 二 附加题 阿里云虚拟机
 1 在阿里云的控制台中创建实例，创建成功后就拥有了按照创建要求分配的云服务器，打开实例的交互命令台。
 2 使用ifconfig可以查询云服务器的地址，但根据阿里云在服务器详情界面展示的外部IP地址为8.130.28.5。
-![8](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/8_.png)
+![8](picture/8_.png)
 
 3 使用ipconfig查询本机的IP地址，云服务器与本机相互使用ping命令确认连接。
-![9](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/9_.png)
+![9](picture/9_.png)
 
 4 使用命令
 >python3 -m http.server 3389 
 
 使服务器开始运行,端口号为3389
 5 在本机电脑的浏览器上输入云服务器的外部IP地址访问，出现页面，服务器被正常访问，并显示访问记录。
-![11](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/11_.png)
-![10](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/10_.png)
+![11](picture/11_.png)
+![10](picture/10_.png)
 
 6 注册个人域名 syc2357.xyz 
-7 创建实例 IP地址为？？？？？？（使用了一个新实例）
+7 创建实例 IP地址为47.104.238.75（使用了一个新实例）
 8 在阿里云的域名管理器中使用域名解析将域名与实例的IP地址进行关联。
-![13](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/13.png)
+![13](picture/13.png)
 
 9 使用命令
 >python3 -m http.server 3389 
 
 使服务器开始运行,端口号为3389
 10 在本机电脑的浏览器上输入syc2357.xyz访问，出现页面，服务器被正常访问，并显示访问记录
-![12](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/12.png)
-![1305](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/1305.png)
+![12](picture/12.png)
+![1305](picture/1305.png)
 
 **遇到的问题和解决办法**
 1 本机无法ping通云服务器
@@ -105,4 +105,4 @@
 >path('hw/create/', views.HomeworkCreate.as_view())
 
 7 可以通过 http://127.0.0.1:8000/news/hw/create/ 链接访问用户页面
-![14](https://raw.githubusercontent.com/SYC-2357/Homework2.0/main/picture/14.png)
+![14](picture/14.png)
